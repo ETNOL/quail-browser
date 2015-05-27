@@ -1,0 +1,30 @@
+.accessibility {
+	background-color: #FAFFFF;
+	border: 2px solid #EAEEEE;
+	border-radius: 12px;
+	display: none;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-danger {
+  color: #B02026;
+}
+
+.list-warning { 
+  color: #F7A41D;
+}
+
+.list-info {
+  color: #367AAE;
+}
+
+.list-pass {
+  color: #5DA45D;
+  font-weight: bold;
+}
+
