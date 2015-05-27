@@ -1775,7 +1775,7 @@ quail.textIsNotSmall = function() {
                     className = 'list-warning';
                   } else if (testability == 0) {
                     level = 'Suggestion: ';
-                    className = 'list-info";
+                    className = 'list-info';
                   }
                   hasResults = true;
                   var li = $('<li>').addClass('list-group-item ' + className).html(level + results[result].test.title.en + ': ' + results[result].test.description.en);
@@ -1784,7 +1784,7 @@ quail.textIsNotSmall = function() {
               }
             }
             if (!hasResults) {
-              var li = $('<li>').addClass('list-pass').text("PASS");
+              var li = $('<li>').addClass('list-pass').text('PASS');
               ul.append(li);
             }
             var accessDiv = $('<div>').addClass('accessibility');
